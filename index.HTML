@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #fce4ec, #e3f2fd);
+            padding: 20px;
+            margin: 0;
+        }
+
+        h2 {
+            text-align: center;
+            color: #c2185b;
+            margin-bottom: 15px;
+        }
+
+        form {
+            background-color: #ffffff;
+            width: 380px;
+            margin: auto;
+            padding: 25px;
+            border: 2px solid #c2185b;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+            color: #333;
+            font-weight: bold;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 9px;
+            margin-top: 5px;
+            box-sizing: border-box;
+            border: 1px solid #bbb;
+            border-radius: 6px;
+        }
+
+        button {
+            background-color: #c2185b;
+            color: white;
+            padding: 10px 14px;
+            border: none;
+            margin-top: 12px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h2>Student Registration Form</h2>
+    <form>
+        <label>Student Name</label>
+        <input type="text" placeholder="Enter your name">
+
+        <label>Student Email</label>
+        <input type="email" placeholder="Enter your email">
+
+        <label>Student Password</label>
+        <input type="password" placeholder="Enter your password">
+
+        <label>Class</label>
+        <select>
+            <option>Select Class</option>
+            <option>1st</option>
+            <option>2nd</option>
+            <option>3rd</option>
+        </select>
+
+        <label>Message</label>
+        <textarea rows="3" placeholder="Write something"></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
+
